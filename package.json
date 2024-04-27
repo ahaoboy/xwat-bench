@@ -1,0 +1,27 @@
+{
+  "name": "@vitest/example-test",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "bench": "vitest bench",
+    "bench:run": "vitest bench --run",
+    "bench:ui": "vitest bench --ui",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
+  },
+  "dependencies": {
+    "@xwat/wabt": "^0.1.4",
+    "@xwat/xwat": "^0.1.4"
+  }
+}
